@@ -69,10 +69,8 @@ gulp.task('sassdoc', function () {
 
 gulp.task('watch', function () {
   gulp.watch(appConfig.src + 'scss/**/*.scss', ['sass']);
-  gulp.watch(appConfig.src + '*.html', browserSync.reload);
-  gulp.watch(appConfig.src + '*.md', browserSync.reload);
-  gulp.watch(appConfig.src + '*.markdown', browserSync.reload);
-  gulp.watch(appConfig.src + 'js/**/*.js', browserSync.reload);
+  gulp.watch(appConfig.dest + '*.html', browserSync.reload);
+  gulp.watch(appConfig.dest + 'js/**/*.js', browserSync.reload);
 });
 
 
