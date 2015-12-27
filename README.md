@@ -41,11 +41,3 @@ $ gulp
 ~~~
 $ jekyll build --destination ../dist --watch
 ~~~
-
-### Production
-
-Run this command to build for production. Minified files are found under the `dist` folder
-
-~~~
-$ gulp build
-~~~
