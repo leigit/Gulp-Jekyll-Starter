@@ -25,10 +25,17 @@ $ bower install
 
 This project uses [Gulp]() to watch for changes in HTML, Sass, JS, images. Whenever a file is changed, the project is recompiled.
 
+#### Compile Sass
+
 Run this command to compile sass and run the browsersync dev server
 
 ~~~
 $ gulp
+~~~
+
+#### Build Jekyll and watch for changes
+~~~
+$ jekyll build --destination ../dist --watch
 ~~~
 
 ### Production

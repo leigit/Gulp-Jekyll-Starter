@@ -1,0 +1,37 @@
+{
+  "name": "gulp-jekyll-starter",
+  "version": "1.0.0",
+  "description": "Project starter kit for using jekyll with gulp-sass and browsersync",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leigit/Gulp-Jekyll-Starter.git"
+  },
+  "keywords": [
+    "gulp",
+    "jekyll",
+    "sass",
+    "scss"
+  ],
+  "author": "Leigh Gittoes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leigit/Gulp-Jekyll-Starter/issues"
+  },
+  "homepage": "https://github.com/leigit/Gulp-Jekyll-Starter#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.1",
+    "gulp-sass-glob": "0.0.8",
+    "gulp-sourcemaps": "^1.6.0",
+    "run-sequence": "^1.1.5",
+    "sassdoc": "^2.1.19"
+  }
+}
