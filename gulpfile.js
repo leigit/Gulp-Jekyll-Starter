@@ -28,7 +28,7 @@ gulp.task('browserSync', function() {
 // gulp compile sass
 
 gulp.task('sass', function() {
- return gulp.src(appConfig.src + 'scss/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
+ return gulp.src(appConfig.src + 'sass/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
     .pipe(sassGlob())
     .pipe($.plumber()) // keep watching and log errors in the console
     .pipe($.sourcemaps.init())
@@ -60,7 +60,7 @@ gulp.task('sassdoc', function () {
     //shortcutIcon: '/images/favicon.png',
   };
 
-  return gulp.src('app/scss/**/*.scss')
+  return gulp.src('app/sass/**/*.scss')
     .pipe(sassdoc(options));
 });
 
@@ -68,7 +68,7 @@ gulp.task('sassdoc', function () {
 // Watch for file changes
 
 gulp.task('watch', function () {
-  gulp.watch(appConfig.src + 'scss/**/*.scss', ['sass']);
+  gulp.watch(appConfig.src + 'sass/**/*.scss', ['sass']);
   gulp.watch(appConfig.dest + '*.html', browserSync.reload);
   gulp.watch(appConfig.dest + 'js/**/*.js', browserSync.reload);
 });

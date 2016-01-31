@@ -3,8 +3,6 @@
 Project starter kit for using jekyll with gulp-sass and browsersync
 
 ## Changes to the Jekyll defaults
-The _'_sass'_ dir has been removed and replaced by _'_scss'_
-
 The _'main.scss'_ file has been removed from the _'css'_ dir
 ## Initialization
 
@@ -19,6 +17,13 @@ Install Bower dependencies
 ~~~
 $ bower install
 ~~~
+
+If you do not have gulp installed globally, install it with the following command
+
+~~~
+$ npm install -g gulp
+~~~
+
 
 ## Usage
 
